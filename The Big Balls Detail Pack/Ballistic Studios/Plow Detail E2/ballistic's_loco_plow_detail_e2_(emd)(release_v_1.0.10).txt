@@ -80,7 +80,8 @@ FINE, You can mess with it too E
 
 ]#
 #please help I want to kill myself
-if(first() | duped()){
+if(duped() | dupefinished()){ reset() }
+if(first()){
 if(PlowType <= 1) {MuDoors = 0}
 else{MuDoors = MuDoors}
 if(MuDoors == 0) {B = 2}
